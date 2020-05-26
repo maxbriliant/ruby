@@ -1,0 +1,19 @@
+Data Generation
+
+Database? Different direction
+Superwised learning
+Input as non Nessecerry but possible
+
+
+Understanding
+-Human Language -> Intention
+
+
+Generating
+-Generated Programming Language
+ ->used by the mashine to Build Code
+-Teaching the Mashine to write
+
+
+Testing
+-Adding Principles of Human Aesthetic
