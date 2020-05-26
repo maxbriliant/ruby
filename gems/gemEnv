@@ -1,0 +1,42 @@
+[jack@ktds07 ~]$ gem environment
+RubyGems Environment:
+  - RUBYGEMS VERSION: 3.1.2
+  - RUBY VERSION: 2.7.1 (2020-03-31 patchlevel 83) [x86_64-linux]
+  - INSTALLATION DIRECTORY: /usr/lib/ruby/gems/2.7.0
+  - USER INSTALLATION DIRECTORY: /home/jack/.gem/ruby/2.7.0
+  - RUBY EXECUTABLE: /usr/bin/ruby
+  - GIT EXECUTABLE: /usr/bin/git
+  - EXECUTABLE DIRECTORY: /usr/bin
+  - SPEC CACHE DIRECTORY: /home/jack/.gem/specs
+  - SYSTEM CONFIGURATION DIRECTORY: /etc
+  - RUBYGEMS PLATFORMS:
+    - ruby
+    - x86_64-linux
+  - GEM PATHS:
+     - /usr/lib/ruby/gems/2.7.0
+     - /home/jack/.gem/ruby/2.7.0
+  - GEM CONFIGURATION:
+     - :update_sources => true
+     - :verbose => true
+     - :backtrace => false
+     - :bulk_threshold => 1000
+     - "gem" => "--user-install"
+  - REMOTE SOURCES:
+     - https://rubygems.org/
+  - SHELL PATH:
+     - /home/jack/.local/bin
+     - /root/.gem/ruby/2.7.0/bin
+     - /home/jack/.gem/ruby/2.7.0/bin
+     - /usr/local/bin
+     - /usr/bin
+     - /bin
+     - /usr/local/sbin
+     - /usr/lib/jvm/default/bin
+     - /usr/bin/site_perl
+     - /usr/bin/vendor_perl
+     - /usr/bin/core_perl
+     - /var/lib/snapd/snap/bin
+     - /home/jack/.gem/ruby/2.7.0/bin
+     - /home/jack/.rvm/bin
+     - /home/jack/.rvm/bin
+

@@ -1,0 +1,5 @@
+rvm all do gem install ...
+
+rvm --default use xruby-2.3/4
+
+rvm gemdir
