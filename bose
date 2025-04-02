@@ -1,0 +1,10 @@
+#!/usr/bin/ruby
+
+bt_uid="43:32:5D:BA:F2:D7"
+bt_uid=`bluetoothctl devices | grep Bose`
+bt_uid=bt_uid.match /[\s].*?[\s]/
+bt_uid=bt_uid.to_s.chomp.strip
+puts bt_uid
+system("rfkill block bluetooth && sleep 1 && rfkill unblock bluetooth && sleep 2 && bluetoothctl connect #{bt_uid}")
+
+
