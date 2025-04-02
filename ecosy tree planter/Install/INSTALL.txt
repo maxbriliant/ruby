@@ -1,0 +1,43 @@
+Open interactive Ruby Terminal
+Make sure to Navigate into the folder where the Gemfile is located.
+
+Type following commands: 
+
+  gem install bundler
+ bundler install
+___
+
+If the gems did not Autoinstall,
+try installing them by Han:
+
+gem install [..specified in Gemfile]
+
+___
+
+On Linux you have to add your ruby binary into $PATH
+
+For Example:
+echo "export PATH=/home/$USER/.local/share/gem/ruby/3.0.0/bin:$PATH"
+echo "export PATH=$PATH:/usr/bin/chromedriver" >> ~/.bashrc
+
+___
+
+
+Chrome Webdriver need to be Installed
+Note: On Linux they need to be added into your PATH Variable too
+
+___
+
+                                ## WARNING - USE VERSION OF YOUR BROWSER ##
+wget https://chromedriver.storage.googleapis.com/107.0.5304.18/chromedriver_linux64.zip 
+unzip chromedriver_linux64.zip
+sudo cp ./chromedriver /usr/bin
+sudo cp ./chromedriver /usr/local/bin
+sudo chmod 755 /bin/chromedriver && sudo chmod 755 /usr/local/chromedriver
+
+sudo ln -s /opt/google/chrome/google-chrome /usr/bin/google-chrome
+sudo chmod 755 /usr/bin/google-chrome
+
+To make $PATH changes permanently, write into your .bashrc
+
+@Brilliant
