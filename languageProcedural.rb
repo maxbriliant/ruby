@@ -1,9 +1,5 @@
 #!/usr/bin/ruby
 
-#Needs to Change
-# C Python C++ Ruby Perl ..
-
-
 langs = Array(0..9)
 langs = "Java", "C#", "SQL", "TypeScript", "Python", "Ruby"
 langs = langs.reverse

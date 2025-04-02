@@ -1,0 +1,2 @@
+#!/bin/bash
+youtube-dl $(ruby /home/max/source/ruby/yt-dl/youtube-shortener.rb $1)
